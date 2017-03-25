@@ -1,2 +1,3 @@
 # SimpleEncoder
-FFmpeg sample encoder
+
+FFmpeg sample video encoder
