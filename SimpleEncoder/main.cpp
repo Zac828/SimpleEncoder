@@ -102,7 +102,6 @@ static void video_encode_example(const char *filename, AVCodecID codec_id, int p
 
     /* open it */
     if (avcodec_open2(c, codec, NULL) < 0) {
-
         exit(1);
     }
 
