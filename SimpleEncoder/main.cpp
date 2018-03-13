@@ -193,7 +193,6 @@ static void video_encode_example(const char *filename, AVCodecID codec_id, int p
     av_free(c);
     av_freep(&frame->data[0]);
     av_frame_free(&frame);
-    printf("\n");
 }
 
 int main(int argc, char **argv)
